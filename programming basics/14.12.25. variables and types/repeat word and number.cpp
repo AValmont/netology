@@ -8,14 +8,14 @@ int main()
     SetConsoleOutputCP(1251);
     int num;
     
-    std::cout << "Ââåäèòå ÷èñëî:" << std::endl;
+    std::cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã·Ã¨Ã±Ã«Ã®:" << std::endl;
     std::cin >> num;
-    std::cout << "Âû ââåëè: " << num << std::endl;
+    std::cout << "Ã‚Ã» Ã¢Ã¢Ã¥Ã«Ã¨: " << num << std::endl;
 
-    std::cout << "Ââåäèòå ñëîâî:" << std::endl;
+    std::cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã±Ã«Ã®Ã¢Ã®:" << std::endl;
     std::string new_word;
     std::cin >> new_word;
-    std::cout << "Âû ââåëè: " << new_word << std::endl;
+    std::cout << "Ã‚Ã» Ã¢Ã¢Ã¥Ã«Ã¨: " << new_word << std::endl;
     
     return EXIT_SUCCESS;
 }
